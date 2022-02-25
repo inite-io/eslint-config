@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-werber",
+  "version": "6.2.0",
+  "description": "Eslint config for Inite projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/werber/eslint-config.git"
+  },
+  "keywords": [
+    "werber",
+    "inite",
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Inite",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/werber/eslint-config/issues"
+  },
+  "homepage": "https://github.com/werber/eslint-config#readme",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.1.1",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
