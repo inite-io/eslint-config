@@ -16,7 +16,7 @@ Information about installation and usage can be found at http://eslint.org/docs/
 
 ```json
 {
-  "extends": "werber/node", // TODO: 
+  "extends": "inite-io/node", // TODO: 
   "rules": {
     "locally-overriden-rule": 1
   }
@@ -29,7 +29,7 @@ For usage see https://github.com/vuejs/eslint-plugin-vue. Right now all reccomen
 
 ```json
 {
-  "extends": "werber/vue",
+  "extends": "inite-io/vue",
   "rules": {
     "locally-overriden-rule": 1
   }
@@ -49,7 +49,7 @@ For usage see https://github.com/vuejs/eslint-plugin-vue. Right now all reccomen
 Install the module
 
 ```bash
-npm i -D werber-eslint-config
+npm i -D inite-io-eslint-config
 ```
 
 In your project's `.eslintrc`:
@@ -58,7 +58,7 @@ In your project's `.eslintrc`:
 
 ```json
 {
-  "extends": "werber",
+  "extends": "inite-io",
   "rules": {
     "locally-overriden-rule": 1
   }
@@ -69,7 +69,7 @@ In your project's `.eslintrc`:
 
 ```json
 {
-  "extends": "werber/browser",
+  "extends": "inite-io/browser",
   "rules": {
     "locally-overriden-rule": 1
   }
@@ -86,7 +86,7 @@ npm install -D eslint-plugin-mocha eslint-config-habitrpg
 
 ```json
 {
-  "extends": "werber/mocha",
+  "extends": "inite-io/mocha",
   "rules": {
     "locally-overriden-rule": 1
   }

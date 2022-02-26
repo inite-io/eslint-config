@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-werber",
+  "name": "eslint-config-inite-io",
   "version": "6.2.0",
   "description": "Eslint config for Inite projects",
   "main": "index.js",
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/werber/eslint-config.git"
+    "url": "git+https://github.com/inite-io/eslint-config.git"
   },
   "keywords": [
-    "werber",
+    "inite-io",
     "inite",
     "eslint",
     "eslint-config"
@@ -20,9 +20,9 @@
   "author": "Inite",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/werber/eslint-config/issues"
+    "url": "https://github.com/inite-io/eslint-config/issues"
   },
-  "homepage": "https://github.com/werber/eslint-config#readme",
+  "homepage": "https://github.com/inite-io/eslint-config#readme",
   "dependencies": {
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
