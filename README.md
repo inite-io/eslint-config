@@ -16,7 +16,7 @@ Information about installation and usage can be found at http://eslint.org/docs/
 
 ```json
 {
-  "extends": "inite-io/node", // TODO: 
+  "extends": "inite-io/node",
   "rules": {
     "locally-overriden-rule": 1
   }
@@ -92,11 +92,6 @@ npm install -D eslint-plugin-mocha eslint-config-habitrpg
   }
 }
 ```
-
-### esnext
-
-This version is meant to be used with code written in ES6+ (babel is ok). 
-It will currently parse code according to ecmaScript version 7 (TODO: need to upgrade to higher version).
 
 ---
 
